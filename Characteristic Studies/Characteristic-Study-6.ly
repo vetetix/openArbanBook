@@ -83,19 +83,38 @@ Fine = {
       fs'8.( d16) a fs d( cs d) fs-. a-. d-.
       fs8.( d16) a fs d( fs) a d fs a
       g8.( fs16) e-. d-. cs-. b-. a-. g-. fs-. e-.
-      d( fs) g a b cs d4 r8 \break
+      d( fs) g a b cs d4 r8  \pageBreak
       
-      bf16( g) e-. bf'( g) e-. cs'( bf) g e'( cs) bf
+      ds8.( b16) cs ds e( ds e) fs-. g-. e-.
+      fs4( ds8) b4.
+      ds8.( b16) cs ds e( ds e) fs-. g-. e-.
+      fs4.~ fs4( fss8)
+      gs4.~ gs8.( fs16) e ds
+      ds8.( cs16) b-. a-. gs4.
+      fs4.~ fs8 a cs
+      b4( e8) gs,4( g8)
+      fs4.~ fs8 a c
+      b4( g8) e4 r8 \break
+      
+      b'16( g) e-. b'( g) e-. bf'( g) e-. bf'( g) e-.
+      e'8.( cs16) bf g e4 r8
+      bf'16( g) e-. bf'( g) e-. cs'( bf) g e'( cs) bf
       g'( e) cs bf g g' fs( ef) c a fs fs'
       f( d) b af f f' e( df) bf g e df'
       df( c) af f c c' c( bf) g-. e-. c-. c'-. \bar "||" \break
       
       \key f \major
-      f,8 f16( a) c f e( e,) g c e g
-      f( c,) f a c f e( e,) g c e g 
+      f,16( c) f-. a-. c-. f-. a( f) c a f c
+      a( c) f a c f a( f) c a f c
+      bf( c) e g c e g( e) c bf g e
+      c( e) g c e g bf( g) e c bf g \break
+      f8 f16( a) d-. c-. bf( fs g) bf-. e-. d-.
+      c( b c) f a, c bf d g, bf e, g     
+      f8 f16( a) c f e( e,) g c e g
+      f( c,) f a c f e( e,) g c e g \break
       f( e f) a-. c,-. f-. a,( gs) a c-. f,-. a-.
       c,( b c) d-. e-. f-. g-. a-. bf-. c-. d-. e-.
-      f8 f16 a-. c,-. f-. a,( gs a) c-. f,-. a-. 
+      f8 f16-. a-. c,-. f-. a,( gs a) c-. f,-. a-. 
       c,( b c) d e f g a bf c d e
       f a c, f a, c f, a c, f a c 
       f4 r8 f4 r8 
