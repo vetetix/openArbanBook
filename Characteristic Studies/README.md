@@ -1,4 +1,8 @@
-**README**
+# README
+
+Make sure you don't use the 1879 version of these studies when transcribing. It's full of cuts and is hard to read. As of 15/02/2026 all transcriptions are to be made from the First Edition (1864) Arban book available from BNF or IMSLP.org
+
+## Ignore all of this below, I've just left it here for giggles
 
 Most of the openArbanBook has been transcribed from the earliest English language version that is commonly available.
 Although this is also an edited version, it was decided in the beginning of this project that it would be the most authentic starting point. However, it appears that the versions of the Characteristic Studies that are published in this version of the book have big sections missing compared to the modern editions and has a lot of inconsistencies in the articulations.
