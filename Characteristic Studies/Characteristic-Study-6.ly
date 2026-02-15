@@ -67,7 +67,39 @@ Fine = {
       
       fs16( d) cs-. d-. e-. fs-. g( a bf a) g-. fs-.
       g( fs g f) ef-. d-. ef( d ef d) c-. bf-.
+      a-. fs-. a-. c-. ef( d) d,-. fs-. a-. c-. ef( d)
+      g,( bf,) d-. g-. bf-. d-. g4 r8
       
+      ef16( c) g-. ef'( c) g-. d'( bf) g-. d'( bf) g-.
+      cs( bf) g-. cs( bf) g-. d'( a) fs-. d'( a) fs-.
+      e( ds) e fs g a b a cs a e' a,
+      fs'( d cs d) a-. fs-. d4 r8 \bar "||" \break
+      
+      \key d \major
+      fs'8.( d16) a fs d( cs d) fs-. a-. d-.
+      fs8.( d16) a-. fs-. d( fs) a-. d-. fs-. a-.
+      g8.( fs16) e-. d-. cs-. b-. a-. g-. fs-. e-.
+      fs( e) fs-. g-. a-. b-. a4 a8
+      fs'8.( d16) a fs d( cs d) fs-. a-. d-.
+      fs8.( d16) a fs d( fs) a d fs a
+      g8.( fs16) e-. d-. cs-. b-. a-. g-. fs-. e-.
+      d( fs) g a b cs d4 r8 \break
+      
+      bf16( g) e-. bf'( g) e-. cs'( bf) g e'( cs) bf
+      g'( e) cs bf g g' fs( ef) c a fs fs'
+      f( d) b af f f' e( df) bf g e df'
+      df( c) af f c c' c( bf) g-. e-. c-. c'-. \bar "||" \break
+      
+      \key f \major
+      f,8 f16( a) c f e( e,) g c e g
+      f( c,) f a c f e( e,) g c e g 
+      f( e f) a-. c,-. f-. a,( gs) a c-. f,-. a-.
+      c,( b c) d-. e-. f-. g-. a-. bf-. c-. d-. e-.
+      f8 f16 a-. c,-. f-. a,( gs a) c-. f,-. a-. 
+      c,( b c) d e f g a bf c d e
+      f a c, f a, c f, a c, f a c 
+      f4 r8 f4 r8 
+      f,2 \fermata \bar "|."
     }
   }
 }
