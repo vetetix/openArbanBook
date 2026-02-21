@@ -1,16 +1,6 @@
 \version "2.24.0"
 \language "english"
 
-DCfine = {
-  \once \override Score.RehearsalMark.break-visibility = #'#(#t #t #f)
-  \mark \markup { \small "D.C. al Fine" }
-}
-
-Fine = {
-  \once \override Score.RehearsalMark.break-visibility = #'#(#t #t #f)
-  \mark \markup { \small \italic "Fine" }
-}
-
 \book {
   \paper {
     indent = 0\mm
@@ -38,7 +28,8 @@ Fine = {
   \score {
    \layout { \context { \Score \remove "Bar_number_engraver" }}
     \relative c'
-    { \numericTimeSignature \time 4/4
+    { \tempo Legato
+      \numericTimeSignature \time 4/4
       \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
       \key e \major 
       e16( gs b e ds c a fs) e(gs b e ds c a fs)
@@ -68,7 +59,8 @@ Fine = {
       b4( c8) d ef2
       f4 fs\trill \appoggiatura { e16 fs } g8( f) ef c
       bf( a) af f e4 r8 g
-      g4.\f-"agitato"( c16) d ef8( d16) c c8( bf16) af
+      \tempo agitato
+      g4.\f( c16) d ef8( d16) c c8( bf16) af
       g4.( ef8) c4 ef16( g) c-. ef-.
       g4.(\( f16) ef\) ef4.(\( d16) c\)
       ef2\( \appoggiatura { d16( f ef } d4)\) r8 d
