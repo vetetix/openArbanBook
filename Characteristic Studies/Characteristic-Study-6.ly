@@ -42,8 +42,7 @@ Fine = {
       \numericTimeSignature \time 6/8
       \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
       \key f \major
-      % added similie marking
-      f16( c) f-. a-. c-. f-. a(-"sim." f) c a f c
+      f16( c) f-. a-. c-. f-. a( f) c a f c
       a( c) f a c f a( f) c a f c
       bf( c) e g c e g( e) c bf g e
       c( e) g c e g bf( g) e c bf g \break
@@ -111,8 +110,7 @@ Fine = {
       df( c) af-. f-. c-. c'-. c( bf)-"rall." g-. e-. c-. c'-. \bar "||" \break
       
       \key f \major
-      % added similie marking
-      f,16( c) f-. a-. c-. f-. a(-"sim." f) c a f c
+      f,16( c) f-. a-. c-. f-. a( f) c a f c
       a( c) f a c f a( f) c a f c
       bf( c) e g c e g( e) c bf g e
       c( e) g c e g bf( g) e c bf g \break
