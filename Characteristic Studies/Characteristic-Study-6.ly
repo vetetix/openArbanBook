@@ -38,10 +38,12 @@ Fine = {
   \score {
    \layout { \context { \Score \remove "Bar_number_engraver" }}
     \relative c'
-    { \numericTimeSignature \time 6/8
+    { \tempo Moderato
+      \numericTimeSignature \time 6/8
       \set Staff.explicitKeySignatureVisibility = #end-of-line-invisible
       \key f \major
-      f16( c) f-. a-. c-. f-. a( f) c a f c
+      % added similie marking
+      f16( c) f-. a-. c-. f-. a(-"sim." f) c a f c
       a( c) f a c f a( f) c a f c
       bf( c) e g c e g( e) c bf g e
       c( e) g c e g bf( g) e c bf g \break
@@ -76,35 +78,41 @@ Fine = {
       fs'( d cs d) a-. fs-. d4 r8 \bar "||" \break
       
       \key d \major
-      fs'8.( d16) a fs d( cs d) fs-. a-. d-.
+      % added staccato marks to two semiquavers first part of the next bar
+      % to be the same as the following bar
+      fs'8.( d16) a-. fs-. d( cs d) fs-. a-. d-.
       fs8.( d16) a-. fs-. d( fs) a-. d-. fs-. a-.
       g8.( fs16) e-. d-. cs-. b-. a-. g-. fs-. e-.
       fs( e) fs-. g-. a-. b-. a4 a8
-      fs'8.( d16) a fs d( cs d) fs-. a-. d-.
-      fs8.( d16) a fs d( fs) a d fs a
+      fs'8.( d16) a-. fs-. d( cs d) fs-. a-. d-.
+      % added staccato marks
+      fs8.( d16) a-. fs-. d( fs) a-. d-. fs-. a-.
       g8.( fs16) e-. d-. cs-. b-. a-. g-. fs-. e-.
-      d( fs) g a b cs d4 r8  \pageBreak
+      d( fs) g-. a-. b-. cs-. d4 r8  \pageBreak
       
-      ds8.( b16) cs ds e( ds e) fs-. g-. e-.
+      % added staccato to all semiquavers
+      ds8.( b16) cs-. ds-. e( ds e) fs-. g-. e-.
       fs4( ds8) b4.
-      ds8.( b16) cs ds e( ds e) fs-. g-. e-.
+      ds8.( b16) cs-. ds-. e( ds e) fs-. g-. e-.
       fs4.~ fs4( fss8)
-      gs4.~ gs8.( fs16) e ds
+      gs4.~ gs8.( fs16) e-. ds-.
       ds8.( cs16) b-. a-. gs4.
       fs4.~ fs8 a cs
       b4( e8) gs,4( g8)
       fs4.~ fs8 a c
       b4( g8) e4 r8 \break
       
+      % added staccato to lowest of each 3 semiquavers and rall.
       b'16( g) e-. b'( g) e-. bf'( g) e-. bf'( g) e-.
-      e'8.( cs16) bf g e4 r8
-      bf'16( g) e-. bf'( g) e-. cs'( bf) g e'( cs) bf
-      g'( e) cs bf g g' fs( ef) c a fs fs'
-      f( d) b af f f' e( df) bf g e df'
-      df( c) af f c c' c( bf) g-. e-. c-. c'-. \bar "||" \break
+      e'8.( cs16) bf-. g-. e4 r8
+      bf'16( g) e-. bf'( g) e-. cs'( bf) g-. e'( cs) bf-.
+      g'( e) cs-. bf-. g-. g'-. fs( ef) c-. a-. fs-. fs'-.
+      f( d) b-. af-. f-. f'-. e( df) bf-. g-. e-. df'-.
+      df( c) af-. f-. c-. c'-. c( bf)-"rall." g-. e-. c-. c'-. \bar "||" \break
       
       \key f \major
-      f,16( c) f-. a-. c-. f-. a( f) c a f c
+      % added similie marking
+      f,16( c) f-. a-. c-. f-. a(-"sim." f) c a f c
       a( c) f a c f a( f) c a f c
       bf( c) e g c e g( e) c bf g e
       c( e) g c e g bf( g) e c bf g \break
