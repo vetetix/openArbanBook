@@ -26,14 +26,14 @@
     \acciaccatura c8 b16 as-. b-. c-. \acciaccatura b8 a16 gs-. a-. b-. |
     \tuplet 6/4 4 { g-. b( c) d( e) fs-. } g8 r |
     \acciaccatura fs8 e16 ds-. e-. fs-. e-. g-. fs-. e-. |
-    \acciaccatura e8 ds16 b fs d \tuplet 6/4 4 { b( d) fs-. b ds fs-. } |
+    \acciaccatura e8 ds16 b fs ds \tuplet 6/4 4 { b( ds) fs-. b( ds) fs-. } |
     \acciaccatura fs8 e16 ds-. e-. fs-. e-. g-. fs-. e-. |
     
     % line 3
     %TODO modify accidentals (modern or something)
     \acciaccatura e8 ds16 cx-. ds-. fs-. b,-. bs-. cs-. d-. |
     \acciaccatura fs8 e16 ds-. e-. fs-. e-. g-. fs-. e-. |
-    ds-. b-. fs-. d-. \tuplet 6/4 4 { b( d) fs-.b( ds) fs } |
+    ds-. b-. fs-. ds-. \tuplet 6/4 4 { b( ds) fs-.b( ds) fs } |
     \acciaccatura fs8 e16 ds-. e-. fs-. e-. g-. fs-. e-. |
     \acciaccatura e8 ds16 cx-. ds-. fs-. e4 |
     \tuplet 3/2 8 { fs16[( e) d-.] e( d) c-. d[( c) b-.] c( b) a-. } |
@@ -47,7 +47,7 @@
     \tuplet 3/2 8 { f[( e) d-.] d( c) b-. b[( a) g-.] g( fs) f-. } | % same
     
     % line 5
-    \acciaccatura fs8 e16 ds e a g4 |
+    \acciaccatura f8 e16 ds e a g4 | % choosing f natural of 1893's edition
     gs16( e) ds-. e-. fs-. gs-. a-. b-. | % Omited fs! reminder
     \acciaccatura d8 c16 b-. c-. d-. \tuplet 3/2 8 { e[( d) c-.] c( b) a-. } |
     gs16( e) ds-. e-. fs-. gs-. a-. b-. |
