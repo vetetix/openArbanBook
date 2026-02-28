@@ -1,6 +1,24 @@
 \version "2.24.4"
 \language "english"
 
+\book {
+  \paper {
+    indent = 0\mm
+    scoreTitleMarkup = \markup {
+      \fill-line {
+        \null
+        \fontsize #4 \bold \fromproperty #'header:piece
+        \fromproperty #'header:composer
+      }
+    }
+    fonts = #
+  (make-pango-font-tree
+   "Lato"
+   "Lato"
+   "Liberation Mono"
+   (/ (* staff-height pt) 2.5))
+  }
+ 
 \header {  
           tagline = "This work is licensed under a CC BY-SA 4.0 license."
           composer = " "
@@ -9,6 +27,7 @@
 }
 
 \score {
+  \layout { \context { \Score \remove "Bar_number_engraver" }}
   %% Characteristic study no. 3 - Ed. 1864 p. 195
   \relative {
     \tempo Moderato
