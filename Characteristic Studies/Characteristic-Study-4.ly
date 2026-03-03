@@ -130,7 +130,7 @@
     d4 r16 fs,( e g |
     fs a g b a c b d |
     c4) r8 c16 b |
-    \tuplet 3/2 8 { d[( c b-.)] d[( c b-.)] d[( c b-.)] d[( c b-.)] } |
+    \tuplet 3/2 8 { d[( c) b-.] d[( c) b-.] d[( c) b-.] d[( c) b-.] } |
     c2^\trill \appoggiatura { b16 c } |
     
     %line 14
