@@ -130,11 +130,12 @@
     d4 r16 fs,( e g |
     fs a g b a c b d |
     c4) r8 c16 b |
-    \tuplet 3/2 8 { d[( c b-.)] d[( c b-.)] d[( c b-.)] d[( c b-.)] } |
-    c2^\trill \appoggiatura { b16 c } |
+    \tuplet 3/2 8 { d[( c) b-.] d[( c) b-.] d[( c) b-.] d[( c) b-.] } |
+    c2^\trill \appoggiatura { \bar "" b16 c \bar "|" } |
     
     %line 14
-    cs2^\trill \grace { b16 cs } |
+    % Next ornament is an explicit appoggiatura in 1893's edition
+    cs2^\trill \appoggiatura { \bar "" b16 cs \bar "|" } | 
     d4 r8 \acciaccatura e8 d16 cs?-. |
     d4 r8 \acciaccatura e8 d16 cs-. |
     d8 \acciaccatura e8 d16 cs-. d8 \acciaccatura e8 d16 cs-. \bar "||"
